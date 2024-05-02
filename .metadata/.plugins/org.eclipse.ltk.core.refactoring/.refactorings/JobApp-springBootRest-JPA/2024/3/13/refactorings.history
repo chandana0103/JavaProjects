@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.project.demo.aop&apos; to &apos;Spring-data-rest-demo/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;JobApp-springBootRest-JPA&apos;&#x0D;&#x0A;- Destination element: &apos;Spring-data-rest-demo/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;JobApp-springBootRest-JPA/src/main/java/com.project.demo.aop&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Spring-data-rest-demo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.demo.aop" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1711687731680" version="1.0"/>
+</session>

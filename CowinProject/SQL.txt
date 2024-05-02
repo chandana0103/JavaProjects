@@ -1,0 +1,11 @@
+user table:::
+create table user_tbl (user_id int, name varchar, mobile varchar, vaccine_id int, center_id int, appointment_id int, primary key(user_id), constraint vaccineFK foreign key(vaccine_id) references vaccine_tbl (vaccine_id), constraint centerFK foreign key(center_id) references vaccinationCenter_tbl(center_id),  constraint appointmentFK foreign key(appointment_id) references appointment_tbl (appointment_id));
+
+appointment table::
+ create table appointment_tbl (appointment_id int, appointment_date date, state  varchar, slot varchar , vaccine_type varchar, primary key(appointment_id), constraint vaccineFK foreign key(vaccine_type) references vaccine_tbl (vaccine_type));
+
+vaccination center table:::
+create table vaccinationCenter_tbl (center_id int, name varchar, state  varchar, district varchar, pincode int, primary key(center_id));
+
+vaccine table:::
+create table vaccine_tbl (vaccine_id int, vaccine_type varchar, noof_doses varchar, center_id int,primary key(vaccine_id), constraint centerFK foreign key(center_id) references vaccinationCenter_tbl (center_id));

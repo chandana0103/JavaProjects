@@ -1,0 +1,5 @@
+package com.jobapp.demo.repository;
+
+public class JobRepo {
+
+}

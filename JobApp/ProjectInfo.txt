@@ -1,0 +1,33 @@
+project -job portal
+apply job-candiate
+add job-company
+
+
+-->will learn spring web with react fromt end.
+will convert entire project into react front end which will use separate appliaction.which will hit you server and then server will not be responding with a pages but responding with JSON data.
+
+
+steps:
+spring boot project-
+web app(Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container).
+lombok(Java annotation library which helps to reduce boilerplate code.)
+
+dependencies:
+tomcat-jasper
+jakarta.servlet.jsp.jstl-api
+jakarta.servlet.jsp.jstl
+
+
+views:
+webapp folder in resource
+create 4 jsp files-home,addjob,viewalljobs,success
+
+create css files to make our page colour full
+
+create layers
+model:table entities or fileds of the page
+controller:to connect jsp files create 4 methods and add jsp file names
+service:create methods which will take to repository
+reposityory:add all jobs details which mentiones in model class.
+
+in application give directory to views and jsp files

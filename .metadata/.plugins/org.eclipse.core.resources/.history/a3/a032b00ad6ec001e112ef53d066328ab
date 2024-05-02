@@ -1,0 +1,5 @@
+package com.jobapp.demo.controller;
+
+public class JobController {
+
+}
